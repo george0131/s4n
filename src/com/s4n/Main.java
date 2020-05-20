@@ -28,12 +28,12 @@ public class Main {
 
         while (decision.equalsIgnoreCase("y")) {
 
-            while (routesQuantity == 0) {
+            if (routesQuantity == 0) {
                 try {
                     System.out.println("\nType quantity of delivery routes from drone " + droneNumber);
                     routesQuantity = scanner.nextInt();
                 } catch (InputMismatchException e) {
-                    //Ignore catch.
+                    e.printStackTrace();
                 }
             }
 
