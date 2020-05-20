@@ -20,8 +20,6 @@ public class Main {
         int droneNumber = 1;
         int routesQuantity = 0;
         String decision = "y";
-        String pathRouteFiles = "C:\\route_files\\";
-        String pathRouteFinished = "C:\\route_finished\\";
 
         while (decision.equalsIgnoreCase("y")) {
 
